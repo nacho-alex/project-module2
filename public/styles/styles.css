@@ -954,7 +954,8 @@ input[type="range"]::-webkit-slider-runnable-track {
     /* (A1) FONT & COLORS */
     font-size: 1.6rem;
     color: #fff ;
-    background: #D94A4A ;
+    background: #363636e5 ;
+	border: 2px solid #D94A4A;
   
     /* (A2) DIMENSIONS */
     padding: 20px;
@@ -970,7 +971,7 @@ input[type="range"]::-webkit-slider-runnable-track {
   
    
   .speech.left::after {
-    border-right-color:#D94A4A;
+    border-right-color:#D94A4A; ;
     border-left: 0;
   }
   
